@@ -19,6 +19,15 @@ public class Constant
      * constanta untuk OS Microsoft Windows
      */
     public static final String OS_WINDOW = "Win";
+	/**
+     * constanta untuk OS Linux Ubuntu
+     */
+    public static final String OS_WINDOW = "Linux-Ubuntu";
+	/**
+     * constanta untuk OS Linux Fedora
+     */
+    public static final String OS_WINDOW = "Linux-Fedora";
+	
     public static final String NOT_FOUND_404 = "NOT FOUND";
     /**
      * port untuk CGI server
