@@ -68,9 +68,9 @@ public class SystemStatement
     private String getResultOSExec(String cmd) throws OSNotSupportedYetException
     {
 
-        if(System.getProperty("os.name").contains(ab.cgi.Constant.OS_WINDOW))
+        if(System.getProperty("os.name").contains(ab.cgi.Constant.OS_WINDOW) || System.getProperty("os.name").contains(ab.cgi.Constant.OS_NIX) 
+                || System.getProperty("os.name").contains(ab.cgi.Constant.OS_MAC))
         {
-
             try
             {
                 Runtime runtime = Runtime.getRuntime();
